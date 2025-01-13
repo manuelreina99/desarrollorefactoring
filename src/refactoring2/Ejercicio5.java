@@ -31,7 +31,7 @@ public class Ejercicio5 {
 		
 		for (int i = 1; i < n1; i++) {
 			if (n1 % i == 0) {
-				divisoresN1 = i;
+				divisoresN1 += i;
 			}
 		}
 		 

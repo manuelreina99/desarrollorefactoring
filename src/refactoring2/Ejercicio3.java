@@ -14,9 +14,9 @@ public class Ejercicio3 {
 		System.out.println("Introduce otra palabra: ");
 		String b = sc.next();
 		
-		if (a.length() < b.length()) {
+		if (a.length() > b.length()) {
 			System.out.println("La palabra " + a + " es mas larga que " + b);
-		} else if (a.length() > b.length()) {
+		} else if (a.length() < b.length()) {
 			System.out.println("La palabra " + a + " es mas corta que " + b);
 		} else {
 			System.out.println("Las palabras son iguales en numero de caracteres.");

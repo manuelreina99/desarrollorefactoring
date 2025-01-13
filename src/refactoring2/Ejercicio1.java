@@ -8,7 +8,7 @@ public class Ejercicio1 {
 		var sc = new Scanner(System.in);
 		
 		System.out.print("Introduce el radio del circulo:");
-		int radio = sc.nextInt();
+		double radio = sc.nextInt();
 		
 		double longitud = 2*radio*Math.PI;
 		

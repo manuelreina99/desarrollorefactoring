@@ -9,11 +9,11 @@ public class Ejercicio2 {
         var sc = new Scanner(System.in);
 
         double[] numeros = new double[5]; 
-        int num;
+        double num;
 
         for (int i = 0; i < 5; i++) {
             System.out.println("Introduce un numero decimal: ");
-            num = sc.nextInt();
+            num = sc.nextDouble();
             numeros[i] = num; 
         }
 

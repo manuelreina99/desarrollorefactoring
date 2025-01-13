@@ -25,7 +25,7 @@ public class Ejercicio4 {
 	
 	public static boolean esPrimo(int numero) {
 	    if (numero < 2) {
-	        return true;
+	        return false;
 	    }
 	    for (int j = 2; j <= Math.sqrt(numero); j++) {
 	        if (numero % j == 0) {
